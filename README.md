@@ -6,13 +6,15 @@ To use this template, add `--template typescript` when creating a new app.
 
 1. git clone this repository
 
-```
+```sh
 git clone https://github.com/kychanbi/cra-template-with-eslint-prettier.git
 ```
 
 2. run cra using this template
-npx create-react-app my-app --template file:DIRECTORY_LOCATION
 
+```sh
+npx create-react-app my-app --template file:DIRECTORY_LOCATION
+```
 
 ### package added in this template
 
