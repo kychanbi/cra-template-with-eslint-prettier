@@ -1,20 +1,32 @@
-# cra-template-typescript
+# cra-template-typescript-eslint-prettier
 
-This is the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
+This is the unofficial fork from TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
 
 To use this template, add `--template typescript` when creating a new app.
 
-For example:
+1. git clone this repository
 
-```sh
-npx create-react-app my-app --template typescript
-
-# or
-
-yarn create react-app my-app --template typescript
+```
+git clone https://github.com/kychanbi/cra-template-with-eslint-prettier.git
 ```
 
-For more information, please refer to:
+2. run cra using this template
+npx create-react-app my-app --template file:DIRECTORY_LOCATION
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+
+### package added in this template
+
+```
+      "@typescript-eslint/eslint-plugin": "^5.12.1",
+      "@typescript-eslint/parser": "^5.12.1",
+      "eslint": "^8.10.0",
+      "eslint-config-airbnb": "^19.0.4",
+      "eslint-config-prettier": "^8.4.0",
+      "eslint-plugin-import": "^2.25.4",
+      "eslint-plugin-jsx-a11y": "^6.5.1",
+      "eslint-plugin-only-warn": "^1.0.3",
+      "eslint-plugin-prettier": "^4.0.0",
+      "eslint-plugin-react": "^7.29.1",
+      "eslint-plugin-react-hooks": "^4.3.0",
+      "prettier": "^2.5.1"
+```
