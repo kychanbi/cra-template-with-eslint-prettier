@@ -1,6 +1,5 @@
 SCRIPT=$(readlink -f "$0")
 SCRIPTPATH=$(dirname "$SCRIPT")
-echo $SCRIPTPATH
 cd ../ && npx create-react-app $1 --template typescript
 cd $1
 
