@@ -7,3 +7,4 @@ yarn add @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint eslin
 
 cp $SCRIPTPATH/.prettierrc $SCRIPTPATH/../$1/.prettierrc
 cp $SCRIPTPATH/.eslintrc.json $SCRIPTPATH/../$1/.eslintrc.json
+cp $SCRIPTPATH/.gitignore $SCRIPTPATH/../$1/.gitignore
